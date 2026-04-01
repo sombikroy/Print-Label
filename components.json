@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "printlabel",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "sb.custom.plugins.printlabel",
+			"propertyEditor": "sb.custom.plugins.printlabel.builder.PropertyEditor",
+			"i18n": "sb.custom.plugins.printlabel.i18n.i18n",
+            "productionProcessEnabled": false,
+           "productionProcessTitle": "printlabel",
+			"supportedPodTypes": ["ORDER"]
+		}   
+	]
+}
